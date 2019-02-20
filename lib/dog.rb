@@ -10,8 +10,8 @@ class Dog
   end
   
   def self.all
-    @@all.each do |all|
-      puts @@all
+    @@all.each do |x|
+      @@all
     end
   end 
 
