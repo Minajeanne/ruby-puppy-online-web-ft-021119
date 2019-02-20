@@ -9,11 +9,11 @@ class Dog
     @name = name
     @@all << self 
   end
-  
+  binding.pry
   def self.all
     @@all.each do |dogs|
       @@all
-binding.pry
+
     end
   end 
 
