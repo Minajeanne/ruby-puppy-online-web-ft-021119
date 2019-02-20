@@ -22,4 +22,5 @@ class Dog
   def self.all 
     @@all
   end
+  puts @all
 end
