@@ -10,18 +10,13 @@ class Dog
     @@all << self 
   end
  
- # binding.pry
   def self.all
-    @@all.each do |dogs|
-      #@@all
+    @@all.each do |x|
+      @@all
     end
   end 
 
   def self.clear_all
     @@all.clear 
   end
-  
-  #def self.all 
-   # @@all
-  #end
 end
