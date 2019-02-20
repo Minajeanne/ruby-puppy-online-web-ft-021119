@@ -10,14 +10,8 @@ class Dog
   end
   
   def self.all
-    @@all.each do |dog|
-      if artist_count[artist]
-        artist_count[artist] += 1 
-      else
-        artist_count[artist] = 1
-      end
-    end
-    artist_count
+    @@all.each do |name|
+    puts name
   end 
   
   def self.clear_all
